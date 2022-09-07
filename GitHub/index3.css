@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+.grid-container{
+display : grid;
+background-color: rgb(152, 146, 240);
+grid-template-areas: 'header header header header header header'
+'menu main main main aside aside'
+'menu footer footer footer footer footer' ;
+column-gap: 5px;
+row-gap: 10px;
+
+}
+.grid-container div{
+background-color: rgb(189, 147, 147);
+
+
+
+
+}
+.header{
+
+    grid-area: header;
+}
+.menu{
+
+    grid-area: menu;
+}
+.main{
+
+    grid-area: main;
+}
+.aside{
+
+    grid-area: aside;
+}
+.footer{
+
+    grid-area: footer;
+}
